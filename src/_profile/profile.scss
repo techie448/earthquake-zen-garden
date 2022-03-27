@@ -1,0 +1,13 @@
+$base: 1;
+$rows: $base * 12;
+.profile .content {
+  display: grid;
+  grid-template: repeat($rows, 1.5rem) / auto auto 12rem;
+  grid-column-gap: 1.5rem;
+  width: fit-content;
+
+  img {
+    grid-area: #{$base} / #{$base} / #{$rows/1.5} / #{$base + 1};
+    max-height: 100%;
+  }
+}

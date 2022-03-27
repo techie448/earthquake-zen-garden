@@ -1,0 +1,14 @@
+@import 'src/app';
+
+.header {
+  background-color: rgba($l_grey, 0.2);
+  color: rgba($d_grey, 0.8);
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  padding: 0 1.5rem;
+
+  img {
+    height: 5rem;
+  }
+}

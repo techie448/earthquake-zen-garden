@@ -1,0 +1,39 @@
+$pink: #c6538c;
+$white: #ededed;
+$l_grey: #777777;
+$d_grey: #444444;
+$blue: #0011bb;
+$purple: #6600cc;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.primary {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+h2 {
+  color: $d_grey;
+  margin: 1rem;
+}
+
+td {
+  padding: 0 0.5rem;
+}
